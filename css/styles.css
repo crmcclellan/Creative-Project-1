@@ -1,0 +1,191 @@
+@media only screen and (max-width: 400px){
+    .idea-row-left {
+        margin-top: 50px;
+        margin-bottom: 200px;
+        text-align: left;
+    }
+    
+    .idea-row-right {
+        margin-top: 50px;
+        margin-bottom: 200px;
+        text-align: left;
+    }
+    
+    .dating-pic-left{
+        max-width: 250px;
+        max-height: 250px;
+        width: auto;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    .dating-pic-right{
+        max-width: 250px;
+        max-height: 250px;
+        width: auto;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    
+    .story-pic{
+        max-width: 300px;
+        max-height: 300px;
+        width: auto;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .uniform-width {
+        max-width: 400px;
+        height:auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 60px;
+    }
+    
+    #bg {
+        /* Set rules to fill background */
+        max-height: 500px;
+        max-width: 400px;
+        	
+        /* Set up proportionate scaling */
+        width: 100%;
+        height: auto;
+        	
+        z-index: -1;
+    }
+}
+
+@media only screen and (min-width: 401px){
+    .idea-row-left {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: left;
+    }
+    
+    .idea-row-right {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        text-align: right;
+    }
+    .dating-pic-left{
+        max-width: 400px;
+        max-height: 400px;
+        width: auto;
+        height: auto;
+        float: left;
+        margin: auto;    
+        display: block;
+    }
+
+    .dating-pic-right{
+        max-width: 400px;
+        max-height: 400px;
+        width: auto;
+        height: auto;
+        float: right;
+        margin: auto;    
+        display: block;
+    }
+    
+    .story-pic{
+        max-width: 500px;
+        max-height: 500px;
+        width: auto;
+        height: auto;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    
+    .uniform-width {
+        max-width: 900px;
+        height:auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 100px;
+    }
+    
+    #bg {
+        /* Set rules to fill background */
+        min-height: 100%;
+        min-width: 1024px;
+        	
+        /* Set up proportionate scaling */
+        width: 100%;
+        height: auto;
+        	
+        z-index: -1;
+    }
+}
+
+.container {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.story-col{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+
+.page-footer{
+    z-index: -1 !important;
+    background-color: #232930;
+}
+
+.bg-dark{
+    background-color: #232930 !important;
+}
+
+.top-center{
+    position: absolute;
+    left: 50%;
+}
+
+#logo {
+    max-width: 70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #121820;
+    color: #f8f9fa;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+h1 {
+    margin-bottom: 80px; 
+    font-size: 50px;
+}
+
+h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 23px;
+}
+
